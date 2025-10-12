@@ -1,1 +1,1 @@
-# geog328_lab2_responsive_webpage_design
+# geog328_lab2_stardew_cats_website
