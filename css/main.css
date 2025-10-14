@@ -47,6 +47,33 @@ video {
   margin: 0 auto;
 }
 
+#pettingCatVideo {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#waterbowlCatVideo {
+  max-width: 800px;
+  width: 100%;
+  max-height: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#unlockingCatVideo {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
 .see-also-content {
   font-family: sans-serif;
   font-size: 22px;
@@ -56,11 +83,23 @@ video {
   background-color: black;
   color: white;
   padding-right: 25px;
+  z-index: 10;
+  max-width: 90vw;
+  box-sizing: border-box;
 }
 
 .see-also-links {
   font-family: sans-serif;
   color: white;
+}
+
+.container {
+  background-image: url("../img/stardew_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* ensures it fills the viewport */
+  width: 100%;
 }
 
 /* When the screen is less than 800 pixels wide */
