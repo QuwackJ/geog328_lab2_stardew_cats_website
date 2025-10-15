@@ -48,14 +48,6 @@ video {
   margin: 0 auto;
 }
 
-/* #pettingCatVideo {
-  max-width: 800px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-} */
-
 #waterbowlCatVideo {
   max-width: 800px;
   width: 100%;
@@ -65,14 +57,6 @@ video {
   margin: 0 auto;
   object-fit: cover;
 }
-
-/* #unlockingCatVideo {
-  max-width: 800px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-} */
 
 .container {
   background-image: url("../img/stardew_background.png");
